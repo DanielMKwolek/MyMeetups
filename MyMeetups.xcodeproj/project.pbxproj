@@ -14,6 +14,13 @@
 		650558C41D9C11D90016B23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650558C21D9C11D90016B23A /* LaunchScreen.storyboard */; };
 		650558CF1D9C11D90016B23A /* MyMeetupsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650558CE1D9C11D90016B23A /* MyMeetupsTests.swift */; };
 		650558DA1D9C11D90016B23A /* MyMeetupsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650558D91D9C11D90016B23A /* MyMeetupsUITests.swift */; };
+		650558E81D9C12840016B23A /* MeetupConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 650558E71D9C12840016B23A /* MeetupConfig.plist */; };
+		650558EB1D9C33380016B23A /* MyMeetups.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 650558E91D9C33380016B23A /* MyMeetups.xcdatamodeld */; };
+		650558ED1D9C35150016B23A /* CityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650558EC1D9C35150016B23A /* CityStore.swift */; };
+		650558F01D9C35380016B23A /* City+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650558EE1D9C35380016B23A /* City+CoreDataClass.swift */; };
+		650558F11D9C35380016B23A /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650558EF1D9C35380016B23A /* City+CoreDataProperties.swift */; };
+		650558F31D9C35750016B23A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650558F21D9C35750016B23A /* CoreDataStack.swift */; };
+		650558F51D9C37940016B23A /* MeetupAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650558F41D9C37940016B23A /* MeetupAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		650558D51D9C11D90016B23A /* MyMeetupsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMeetupsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		650558D91D9C11D90016B23A /* MyMeetupsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeetupsUITests.swift; sourceTree = "<group>"; };
 		650558DB1D9C11D90016B23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650558E71D9C12840016B23A /* MeetupConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MeetupConfig.plist; sourceTree = "<group>"; };
+		650558EA1D9C33380016B23A /* MyMeetups.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMeetups.xcdatamodel; sourceTree = "<group>"; };
+		650558EC1D9C35150016B23A /* CityStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityStore.swift; sourceTree = "<group>"; };
+		650558EE1D9C35380016B23A /* City+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "City+CoreDataClass.swift"; path = "../City+CoreDataClass.swift"; sourceTree = "<group>"; };
+		650558EF1D9C35380016B23A /* City+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "City+CoreDataProperties.swift"; path = "../City+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		650558F21D9C35750016B23A /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		650558F41D9C37940016B23A /* MeetupAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		650558B81D9C11D90016B23A /* MyMeetups */ = {
 			isa = PBXGroup;
 			children = (
+				650558EE1D9C35380016B23A /* City+CoreDataClass.swift */,
+				650558EF1D9C35380016B23A /* City+CoreDataProperties.swift */,
 				650558B91D9C11D90016B23A /* AppDelegate.swift */,
+				650558EC1D9C35150016B23A /* CityStore.swift */,
+				650558F21D9C35750016B23A /* CoreDataStack.swift */,
+				650558E91D9C33380016B23A /* MyMeetups.xcdatamodeld */,
 				650558BB1D9C11D90016B23A /* ViewController.swift */,
 				650558BD1D9C11D90016B23A /* Main.storyboard */,
 				650558C01D9C11D90016B23A /* Assets.xcassets */,
 				650558C21D9C11D90016B23A /* LaunchScreen.storyboard */,
 				650558C51D9C11D90016B23A /* Info.plist */,
+				650558E71D9C12840016B23A /* MeetupConfig.plist */,
+				650558F41D9C37940016B23A /* MeetupAPI.swift */,
 			);
 			path = MyMeetups;
 			sourceTree = "<group>";
@@ -237,6 +258,7 @@
 			files = (
 				650558C41D9C11D90016B23A /* LaunchScreen.storyboard in Resources */,
 				650558C11D9C11D90016B23A /* Assets.xcassets in Resources */,
+				650558E81D9C12840016B23A /* MeetupConfig.plist in Resources */,
 				650558BF1D9C11D90016B23A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650558F31D9C35750016B23A /* CoreDataStack.swift in Sources */,
+				650558ED1D9C35150016B23A /* CityStore.swift in Sources */,
 				650558BC1D9C11D90016B23A /* ViewController.swift in Sources */,
 				650558BA1D9C11D90016B23A /* AppDelegate.swift in Sources */,
+				650558F51D9C37940016B23A /* MeetupAPI.swift in Sources */,
+				650558EB1D9C33380016B23A /* MyMeetups.xcdatamodeld in Sources */,
+				650558F11D9C35380016B23A /* City+CoreDataProperties.swift in Sources */,
+				650558F01D9C35380016B23A /* City+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +558,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		650558E91D9C33380016B23A /* MyMeetups.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				650558EA1D9C33380016B23A /* MyMeetups.xcdatamodel */,
+			);
+			currentVersion = 650558EA1D9C33380016B23A /* MyMeetups.xcdatamodel */;
+			path = MyMeetups.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 650558AE1D9C11D90016B23A /* Project object */;
 }
